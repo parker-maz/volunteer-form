@@ -16,23 +16,9 @@ input, option {
   border-color: #6e8c62;
 }
 
-.optional {
-  color: #70ad55;
-}
-
-.address {
-  border-top: 2px solid #70ad55;
-  border-bottom: 2px solid #70ad55;
-}
-
-.boxes {
-  border-top: 2px solid #70ad55;
-  border-bottom: 2px solid #70ad55;
-}
-
-.comment {
-  border-top: 2px solid #70ad55;
-  border-bottom: 2px solid #70ad55;
+hr {
+  margin-bottom: .5em;
+  border-color: #70ad55;
 }
 
 .btn {
