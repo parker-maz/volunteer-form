@@ -33,3 +33,15 @@ footer {
   background-color: #70ad55;
   color: #fff;
 }
+
+@media only screen and (min-width: 30em) {
+
+  .left {
+    padding-right: .5rem;
+  }
+
+  .right {
+    padding-left: .5rem;
+  }
+
+}
