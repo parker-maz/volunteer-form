@@ -3,8 +3,73 @@
 <head>
   <meta charset="utf-8">
   <title>Tree Hugger</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700&display=swap">
 </head>
 <body>
+
+  <header class="grid island-1-2">
+    <h1 class="unit xs-1 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
+    <p class="heading unit xs-1 push">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  </header>
+
+  <main class="island-1-2">
+    <form class="" action="index.html" method="post">
+
+      <div class="grid section-one pad-t-2">
+        <h2 class="unit xs-1 push-2">Personal details</h2>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="name">Full name</label>
+          <input class="push-1-4" id="name" type="text" required>
+          <p class="micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="nickname">What should we call you?</label>
+          <input class="push-1-4" id="nickname" type="text" required>
+          <p class="italic">What all your friends call you, e.g. "Liz".</p>
+        </div>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="birth">Date of birth</label>
+          <input class="push-1-4" id="birth" type="date" required>
+        </div>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="shirt">T-shirt size</label>
+          <select class="push-1-4" id="shirt" required>
+            <option>Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="email">Full name</label>
+          <input class="push-1-4" id="email" type="email" required>
+        </div>
+
+        <div class="unit xs-1">
+          <label class="push-1-4" for="name">Phone number <span class="italic optional">(optional)</span></label>
+          <input class="push-1-4" id="name" type="text" required>
+        </div>
+      </div>
+
+    </form>
+  </main>
 
 </body>
 </html>
