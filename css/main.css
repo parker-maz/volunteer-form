@@ -36,3 +36,13 @@ input, option {
   border-top: 2px solid #70ad55;
   border-bottom: 2px solid #70ad55;
 }
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
