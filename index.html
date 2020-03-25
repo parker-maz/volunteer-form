@@ -32,7 +32,7 @@
         <div class="unit xs-1 push">
           <label class="push-1-4" for="nickname">What should we call you?</label>
           <input class="push-1-4" id="nickname" type="text" required>
-          <p class="italic micro push-0">What all your friends call you, e.g. "Liz".</p>
+          <p class="italic micro push-0">What all your friends call you, e.g. “Liz”.</p>
         </div>
 
         <div class="unit xs-1 push">
@@ -42,7 +42,7 @@
 
         <div class="unit xs-1 push">
           <label class="push-1-4" for="shirt">T-shirt size</label>
-          <select class="push-1-4" id="shirt" required>
+          <select class="push-1-4" id="shirt">
             <option>Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
@@ -63,8 +63,8 @@
         </div>
 
         <div class="unit xs-1 push-2">
-          <label class="push-1-4" for="name">Phone number <span class="italic optional">(optional)</span></label>
-          <input class="push-1-4" id="name" type="text" required>
+          <label class="push-1-4" for="number">Phone number <span class="italic optional">(optional)</span></label>
+          <input class="push-1-4" id="number" type="text" required>
         </div>
       </div>
 
@@ -102,8 +102,8 @@
         </div>
 
         <div class="unit xs-1 push-2">
-          <label class="push-1-4" for="street">Street Address</label>
-          <input class="push-1-4" id="street" type="text">
+          <label class="push-1-4" for="code">Postal code</label>
+          <input class="push-1-4" id="code" type="text">
         </div>
 
       </div>
@@ -192,27 +192,29 @@
 
       <div class="circles grid">
 
-        <h2 class="giga unit xs-1 pad-t-2">Do you have a valid driver's license?</h2>
-        <div class="unit xs-1">
-          <input id="license-yes" type="radio" name="license">
-          <label for="license-yes">Yes</label>
-          <input id="license-no" type="radio" name="license">
-          <label for="license-no">No</label>
-        </div>
-        <h2 class="giga unit xs-1 pad-t-2">Do you have a pick-up truck you'd be willing to use?</h2>
-        <div class="unit xs-1">
-          <input id="truck-yes" type="radio" name="truck">
-          <label for="truck-yes">Yes</label>
-          <input id="truck-no" type="radio" name="truck">
-          <label for="truck-no">No</label>
-        </div>
-        <h2 class="giga unit xs-1 pad-t-2">Do you have up-to-date first-aid certification?</h2>
-        <div class="unit xs-1 push-2">
-          <input id="first-aid-yes" type="radio" name="first-aid">
-          <label for="first-aid-yes">Yes</label>
-          <input id="first-aid-no" type="radio" name="first-aid">
-          <label for="first-aid-no">No</label>
-        </div>
+        <fieldset>
+          <h2 class="giga unit xs-1 pad-t-2">Do you have a valid driver's license?</h2>
+          <div class="unit xs-1">
+            <input id="license-yes" type="radio" name="license">
+            <label for="license-yes">Yes</label>
+            <input id="license-no" type="radio" name="license">
+            <label for="license-no">No</label>
+          </div>
+          <h2 class="giga unit xs-1 pad-t-2">Do you have a pick-up truck you'd be willing to use?</h2>
+          <div class="unit xs-1">
+            <input id="truck-yes" type="radio" name="truck">
+            <label for="truck-yes">Yes</label>
+            <input id="truck-no" type="radio" name="truck">
+            <label for="truck-no">No</label>
+          </div>
+          <h2 class="giga unit xs-1 pad-t-2">Do you have up-to-date first-aid certification?</h2>
+          <div class="unit xs-1 push-2">
+            <input id="first-aid-yes" type="radio" name="first-aid">
+            <label for="first-aid-yes">Yes</label>
+            <input id="first-aid-no" type="radio" name="first-aid">
+            <label for="first-aid-no">No</label>
+          </div>
+        </fieldset>
 
       </div>
 

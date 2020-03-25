@@ -1,12 +1,10 @@
 html {
-  font-family: "Noto Serif";
-
+  font-family: "Noto Serif", serif;
 }
 
 body {
   background-color: #fff;
   color: #000;
-
 }
 
 header {
