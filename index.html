@@ -13,7 +13,7 @@
 <body>
 
   <header class="grid island-1-2">
-    <h1 class="unit peta xs-1 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
+    <h1 class="unit exa xs-1 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
     <p class="heading unit xs-1 push">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
@@ -43,7 +43,7 @@
         <div class="unit xs-1 push">
           <label class="push-1-4" for="shirt">T-shirt size</label>
           <select class="push-1-4" id="shirt">
-            <option>Select a t-shirt size</option>
+            <option value="">Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -64,7 +64,7 @@
 
         <div class="unit xs-1 push-2">
           <label class="push-1-4" for="number">Phone number <span class="italic optional">(optional)</span></label>
-          <input class="push-1-4" id="number" type="text" required>
+          <input class="push-1-4" id="number" type="tel" required>
         </div>
       </div>
 
@@ -84,7 +84,7 @@
         <div class="unit xs-1 push">
           <label class="push-1-4" for="prov">Province</label>
           <select id="prov">
-            <option>Select a Province</option>
+            <option value="">Select a Province</option>
             <option>Alberta</option>
             <option>British Columbia</option>
             <option>Manitoba</option>
@@ -192,8 +192,8 @@
 
       <div class="circles grid">
 
-        <fieldset>
-          <h2 class="giga unit xs-1 pad-t-2">Do you have a valid driver's license?</h2>
+        <fieldset class="unit">
+          <legend class="unit"><h2 class="giga xs-1 pad-t-2">Do you have a valid driver's license?</h2></legend>
           <div class="unit xs-1">
             <input id="license-yes" type="radio" name="license">
             <label for="license-yes">Yes</label>
@@ -219,8 +219,8 @@
       </div>
 
       <div class="comment grid pad-t-2 pad-b push-2">
-        <fieldset>
-          <legend class="unit giga xs-1 push-1-4"><label for="cmmnt">Please let us know any comments or questions you may have. <span class="italic optional">(optional)</span></label></legend>
+        <fieldset class="unit">
+          <legend class="unit giga xs-1 push-1-4">Please let us know any comments or questions you may have. <span class="italic optional">(optional)</span></legend>
           <textarea id="cmmnt" rows="8"></textarea>
         </fieldset>
       </div>
