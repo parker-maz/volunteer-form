@@ -1,0 +1,23 @@
+html {
+  font-family: "Noto Serif";
+
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+
+}
+
+header {
+  color: #fff;
+  background-color: #70ad55;
+}
+
+input, option {
+  border-color: #6e8c62;
+}
+
+.optional {
+  color: #70ad55;
+}
