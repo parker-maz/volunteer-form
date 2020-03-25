@@ -12,8 +12,12 @@ header {
   background-color: #70ad55;
 }
 
-input, option {
+input, select, option {
   border-color: #6e8c62;
+}
+
+.optional {
+  color: #70ad55;
 }
 
 hr {
