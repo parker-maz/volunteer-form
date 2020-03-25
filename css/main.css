@@ -21,3 +21,18 @@ input, option {
 .optional {
   color: #70ad55;
 }
+
+.address {
+  border-top: 2px solid #70ad55;
+  border-bottom: 2px solid #70ad55;
+}
+
+.boxes {
+  border-top: 2px solid #70ad55;
+  border-bottom: 2px solid #70ad55;
+}
+
+.comment {
+  border-top: 2px solid #70ad55;
+  border-bottom: 2px solid #70ad55;
+}
